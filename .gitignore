@@ -1,0 +1,11 @@
+# for mac
+.DS_Store
+
+# for android
+local.properties
+gen/
+
+# for idea
+out/
+.idea/workspace.xml
+.idea/tasks.xml
