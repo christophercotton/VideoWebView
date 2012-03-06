@@ -49,8 +49,8 @@ public class VideoActivity extends Activity
         settings.setPluginState(WebSettings.PluginState.ON);
 //        settings.setPluginsEnabled(true);
 
-        webView.loadDataWithBaseURL("http://www.youtube.com/", html, "text/html", "utf-8", null);
-//        webView.loadData(html, "text/html", "utf-8");
+//        webView.loadDataWithBaseURL("http://www.youtube.com/", html, "text/html", "utf-8", null);
+        webView.loadData(html, "text/html", "utf-8");
     }
     
     String loadAsset(String filename) {
